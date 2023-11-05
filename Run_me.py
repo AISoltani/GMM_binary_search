@@ -7,6 +7,7 @@ import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 from scipy.special import erf
+
 #### Part 1
 gmm ={'pi':0.5,'mu':[-1,1],'sigma':[0.5,0.5]}
 n = 1000
