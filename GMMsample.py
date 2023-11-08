@@ -28,7 +28,6 @@ def GMMsample (gmm,n,b):
     X[idx0] = X0.T
     X[idx1] = X1.T
     
-    
     plt.figure()
     n, bins, patches = plt.hist(X0.T, num_bins,density=True, facecolor='blue', alpha=0.7)
     n, bins, patches = plt.hist(X1.T, num_bins,density=True, facecolor='red', alpha=0.7)
