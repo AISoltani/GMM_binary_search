@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 from scipy.special import erf
 
-
 def BinarySearch (gmm, U, LB, UB, maxiter, tol):
     num_bins = 50
     XX = np.zeros((len(U),1))
