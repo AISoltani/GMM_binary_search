@@ -37,7 +37,7 @@ def PushForward (Z,gmm):
             if np.abs(t - u)<= tol:
                 break        
 
-    
+
     plt.figure()
     n, bins, patches = plt.hist(XX, num_bins,density=True, facecolor='green', alpha=0.7) 
     plt.xlabel('x_tilde = T(z)')
