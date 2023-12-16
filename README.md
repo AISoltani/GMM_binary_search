@@ -7,4 +7,8 @@ A Gaussian Mixture Model is a probabilistic model that represents a probability 
 In GMM binary search, the goal is to find the optimal number of Gaussian components (also known as clusters) that best represent the underlying data distribution. This is done by iteratively applying a binary search algorithm to narrow down the range of possible cluster numbers.
 
 
+The basic idea is as follows:
+
+Start with an initial range of possible cluster numbers, such as [min_clusters, max_clusters].
+Compute the GMM for the mid-point of the range, let's say mid_clusters = (min_clusters + max_clusters) / 2.
 
