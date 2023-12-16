@@ -15,3 +15,4 @@ Evaluate the quality of the GMM fit using a criterion such as the Akaike Informa
 If the quality of the fit is better than a threshold (e.g., AIC or BIC decreases), update the range to [min_clusters, mid_clusters - 1] and go to step 2.
 If the quality of the fit is not satisfactory (e.g., AIC or BIC increases), update the range to [mid_clusters + 1, max_clusters] and go to step 2.
 Repeat steps 2-5 until the range is narrowed down to a single cluster number or until a desired convergence criterion is met.
+The resulting cluster number at the end of the binary search is considered an approximate optimal solution to the GMM problem for the given data.
