@@ -11,4 +11,5 @@ The basic idea is as follows:
 
 Start with an initial range of possible cluster numbers, such as [min_clusters, max_clusters].
 Compute the GMM for the mid-point of the range, let's say mid_clusters = (min_clusters + max_clusters) / 2.
+Evaluate the quality of the GMM fit using a criterion such as the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC).
 
