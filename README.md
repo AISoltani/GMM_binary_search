@@ -14,3 +14,4 @@ Compute the GMM for the mid-point of the range, let's say mid_clusters = (min_cl
 Evaluate the quality of the GMM fit using a criterion such as the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC).
 If the quality of the fit is better than a threshold (e.g., AIC or BIC decreases), update the range to [min_clusters, mid_clusters - 1] and go to step 2.
 If the quality of the fit is not satisfactory (e.g., AIC or BIC increases), update the range to [mid_clusters + 1, max_clusters] and go to step 2.
+Repeat steps 2-5 until the range is narrowed down to a single cluster number or until a desired convergence criterion is met.
